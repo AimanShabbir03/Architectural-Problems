@@ -8,7 +8,7 @@ Netflix, as one of the world's largest video streaming platforms, has faced sign
 5. Personalization and Recommendation Limitations ,
    I briefly discussed these problems in my report and also provide the coding solutions for it.
 # Problem which I pick
-1. Monolithic Architecture Scalability Issues
+1. Monolithic Architecture Scalability Issues: 
 Monolithic systems often struggle to handle increased traffic and require significant re-engineering to scale horizontally. We'll replicate a basic scenario of a monolithic service and refactor it into microservices.
 # Benefits of Microservices
 1. Scalability: UserService and StreamingService can scale independently.
@@ -16,9 +16,9 @@ Monolithic systems often struggle to handle increased traffic and require signif
 3. Ease of Deployment: Changes can be made to one service without redeploying the entire system.
 # Implementation of both Codes
 when you are implementing my codes , implement monolithic service code in Ant project of netbeans it will easily implements and run, then implement microservices code in maven project by adding dependencies of spark. 
-# Implementing a Monolithic to Microservices Transition in Maven
+# Implementing a Monolithic to Microservices Transition in Maven : 
 MonolithicService handles both user management and content streaming in a single codebase. The system is then refactored into two distinct services: UserService and StreamingService, which communicate via REST APIs.
-# Steps 
+# Steps : 
 1. MonolithicService:
 A single Java class (MonolithicService.java) that manages both user and streaming logic within one codebase. The handleUserRequest and handleStreamingRequest methods represent user management and content streaming functionality, respectively.
 
