@@ -8,6 +8,7 @@ Netflix, as one of the world's largest video streaming platforms, has faced sign
 5. Personalization and Recommendation Limitations ,
    I briefly discussed these problems in my report and also provide the coding solutions for it.
 # Problem which I pick
+1. Monolithic Architecture Scalability Issues
 Monolithic systems often struggle to handle increased traffic and require significant re-engineering to scale horizontally. We'll replicate a basic scenario of a monolithic service and refactor it into microservices.
 # Benefits of Microservices
 1. Scalability: UserService and StreamingService can scale independently.
